@@ -1,0 +1,62 @@
+/*body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f2f2f2;
+} */
+ #wrapper {
+  max-width: 960px;
+  margin: auto;
+ }
+
+
+#header {
+  /*background-image: url('/images/nentroi.jpg') ;  Đặt đường dẫn tới hình ảnh */
+  background-color: #87CEFA;
+  background-size: cover; /* Đảm bảo hình ảnh phủ kín toàn bộ header */
+  background-position: center center; /* Canh giữa hình ảnh */
+  color: white; /* Màu chữ trắng để nổi bật trên nền tối */
+  padding: 50px 20px; /* Thêm khoảng cách nội dung */
+  text-align: center; /* Canh giữa nội dung trong header */
+  }
+
+
+
+/*h1, h2 {
+  color: #333;
+} */
+
+#wrapp-maincontent{
+  display: flex;
+}
+/*#content{
+  flex-basis: 70%;
+}
+#mytrips{
+  flex-basis: 30%;
+} */
+/*
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+  */
+
+.comment {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#footer {
+  /*background-image: url('/images/nentroi.jpg');  Đặt đường dẫn tới hình ảnh */
+  background-color: #87CEFA;
+  background-size: cover; /* Đảm bảo hình ảnh phủ kín toàn bộ header */
+  background-position: center center; /* Canh giữa hình ảnh */
+  color: white; /* Màu chữ trắng để nổi bật trên nền tối */
+  padding:  10px; /* Thêm khoảng cách nội dung */
+  text-align: center; /* Canh giữa nội dung trong header */
+  bottom: 0;
+  width: 100%;
+  }
